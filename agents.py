@@ -75,3 +75,5 @@ class Agents:
             developer=False,
             tester=True
         )
+
+        # new comments added to code
