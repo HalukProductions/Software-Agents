@@ -1,4 +1,52 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment variables
 .env
-jobposting-api
-db
-__pycache__
+
+# Local database files (if applicable, adjust pattern as needed)
+*.sqlite3
+db.sqlite3
+development.db
+
+# Other common ignores (OS files, IDE files, etc.)
+.DS_Store
+*.env.*
+# ... add others as needed
+
+# Problem solver specific
+problems/solved/
